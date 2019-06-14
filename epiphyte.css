@@ -1,0 +1,178 @@
+* {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Atlasgrot';
+  src: url(assets/fonts/AtlasGrotesk-Medium.otf);
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+}
+
+.epicon {
+  width: 200px;
+  height: 50px;
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.iconic {
+  height: 40px;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  background-image: url(assets/passing.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bigtitle {
+  font-family: Atlasgrot;
+  font-size: 12em;
+  color: white;
+}
+
+.topabout {
+  height: 30vh;
+  width: 100%;
+  background: linear-gradient(122.78deg, #DA7676 23.21%, #DA9D7B 74.4%);
+}
+
+#bighold {
+  width: 1000px;
+  margin: auto;
+  padding-top: 12vh;
+}
+
+#buttonhold {
+  display: inline-flex;
+  margin-top: 8vh;
+}
+
+.button {
+  display: inherit;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+  font-family: bureau-grot, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+  color: #DA7676;
+}
+
+#rouge {
+  background: linear-gradient(151.83deg, #DA9D7B 12.98%, #DA7676 83.33%);
+  color: white;
+  margin-left: 20px;
+}
+
+.how {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 8vh;
+  display: inline-flex;
+}
+
+.how>div {
+  display: inherit;
+}
+
+.icona{
+  padding-top: 20px;
+}
+
+.match {
+  height: 80px;
+}
+
+.lined {
+  border: 0.5px solid white;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 120px;
+}
+
+.pertain {
+  font-family: Atlasgrot;
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+}
+
+#rougea {
+  background: linear-gradient(151.83deg, #DA9D7B 12.98%, #DA7676 83.33%);
+  color: white;
+  width: 165px;
+  margin-top: 20px;
+}
+
+.isorow {
+  display: block;
+  padding-top: 15vh;
+  clear: both;
+}
+
+.parabout {
+  position: relative;
+  float: right;
+  width: 700px;
+  padding: 120px;
+  background: linear-gradient(280.09deg, #E7E3D2 -3.06%, #9F9183 128.2%);
+  font-family: Atlasgrot;
+  font-size: 20px;
+  color: white;
+  z-index: 3;
+}
+
+.moneyshot {
+  position: absolute;
+  width: 975px;
+  margin-top: 20vh;
+  margin-left: 100px;
+  clear: none;
+}
+
+#tworow {
+  padding-top: 700px;
+  width: 100%;
+  margin-bottom: 1100px;
+}
+
+#lefty {
+  float: left;
+}
+
+#righty {
+  right: 300px;
+
+  /*margin-right: 100px;*/
+}
+
+#arounda {
+  height: 30vh;
+  width: 100%;
+  background-color: black;
+}
+
+#moodlight {
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+}
+
+.footer {
+  background: linear-gradient(151.83deg, #DA9D7B 12.98%, #DA7676 83.33%);
+  color: white;
+  height: 15vh;
+}
