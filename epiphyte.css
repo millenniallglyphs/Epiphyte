@@ -7,11 +7,23 @@
   src: url(assets/fonts/AtlasGrotesk-Medium.otf);
 }
 
+a {
+  text-decoration: none;
+}
+
+#papertime {
+  color: #DA7676;
+}
+
+#ghub {
+  color: white;
+}
+
 .header {
   width: 100%;
   height: 60px;
   background-color: black;
-  position: fixed;
+  position: static;
   top: 0px;
   z-index: 5;
 }
@@ -118,7 +130,7 @@
 }
 
 .isorow {
-  display: block;
+  /*display: block;*/
   padding-top: 15vh;
   clear: both;
 }
@@ -136,17 +148,17 @@
 }
 
 .moneyshot {
-  position: absolute;
-  width: 975px;
+  position: relative;
+  width: 800px;
   margin-top: 20vh;
-  margin-left: 100px;
   clear: none;
 }
 
 #tworow {
-  padding-top: 700px;
+  /*padding-top: 700px;*/
   width: 100%;
-  margin-bottom: 1100px;
+  margin-top: -200px;
+  /*margin-bottom: 1100px;*/
 }
 
 #lefty {
@@ -154,9 +166,14 @@
 }
 
 #righty {
-  right: 300px;
-
+  /*right: 300px;*/
+top: -200px;
+margin-left: 300px;
   /*margin-right: 100px;*/
+}
+
+#upit {
+  top: -200px;
 }
 
 #arounda {
@@ -171,8 +188,27 @@
   background-color: black;
 }
 
+#onetime {
+  margin-bottom: -200px;
+}
+
 .footer {
   background: linear-gradient(151.83deg, #DA9D7B 12.98%, #DA7676 83.33%);
   color: white;
   height: 15vh;
+}
+
+.moreabout {
+  width: 1200px;
+  margin: auto;
+}
+
+.wordy {
+  font-family: Atlasgrot;
+  font-size: 16px;
+  color: white;
+}
+
+.documented {
+  width: 900px;
 }
