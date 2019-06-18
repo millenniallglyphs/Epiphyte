@@ -23,7 +23,7 @@ a {
   width: 100%;
   height: 60px;
   background-color: black;
-  position: static;
+  position: sticky;
   top: 0px;
   z-index: 5;
 }
@@ -117,7 +117,7 @@ a {
 
 .pertain {
   font-family: Atlasgrot;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   padding-top: 20px;
 }
@@ -145,6 +145,7 @@ a {
   font-size: 20px;
   color: white;
   z-index: 3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .moneyshot {
@@ -179,7 +180,7 @@ margin-left: 300px;
 #arounda {
   height: 30vh;
   width: 100%;
-  background-color: black;
+  background: linear-gradient(290.39deg, #000000 1.44%, #434038 111.87%);
 }
 
 #moodlight {
@@ -196,11 +197,16 @@ margin-left: 300px;
   background: linear-gradient(151.83deg, #DA9D7B 12.98%, #DA7676 83.33%);
   color: white;
   height: 15vh;
+  font-family: Atlasgrot;
 }
 
 .moreabout {
   width: 1200px;
   margin: auto;
+}
+
+#blackwrap {
+  background: linear-gradient(173.58deg, #000000 0.77%, rgba(70, 70, 70, 0) 85.57%);
 }
 
 .wordy {
@@ -211,4 +217,102 @@ margin-left: 300px;
 
 .documented {
   width: 900px;
+}
+
+.somehold {
+  margin: auto;
+  width: 700px;
+  padding: 120px;
+  background: linear-gradient(280.09deg, #E7E3D2 -3.06%, #9F9183 128.2%);
+  font-family: Atlasgrot;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20vh;
+}
+
+.graddues {
+  font-family: Atlasgrot;
+  font-size: 16px;
+  color: white;
+}
+
+#diagramhold {
+  width: 300px;
+  margin: auto;
+  font-family: Atlasgrot;
+  padding-top: 20vh;
+}
+
+.diagramaa {
+  width: 300px;
+}
+
+.diagramtext {
+  text-align: center;
+  padding: 15px;
+}
+
+.arrowdown {
+  width: 45px;
+  margin: auto;
+}
+
+.arrowsize {
+  width: 45px;
+}
+
+.diagramlabel {
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  width: 150px;
+  margin-left: 75px;
+  text-align: center;
+}
+
+.arrowright {
+  position: relative;
+  left: 220px;
+  top: -40px;
+  margin-bottom: -80px;
+}
+
+.rightsize {
+  width: 90px;
+}
+
+#showup {
+  text-align: left;
+  display: inline-flex;
+  width: 180px;
+  margin-left: 60px;
+  padding: 3px;
+}
+
+#epio {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  float: right;
+  margin-left: 31px;
+}
+
+#epiosize {
+  width: 60px;
+}
+
+#healthword {
+  margin: 10px;
+}
+
+.arrowleft {
+  position: relative;
+  top: -40px;
+  margin-bottom: -70px;
+}
+
+#coppyr {
+  padding-top: 12vh;
+  margin-left: 25px;
 }
