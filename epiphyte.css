@@ -316,3 +316,115 @@ margin-left: 300px;
   padding-top: 12vh;
   margin-left: 25px;
 }
+
+@media only screen and (max-width: 1000px) {
+
+  .epicon {
+    margin-left: 3%;
+  }
+
+  #bigtitle {
+    font-size: 60px;
+  }
+
+  #bighold {
+    width: 95%;
+    padding-top: 40vh;
+  }
+
+  #buttonhold {
+    display: block;
+    margin-top: 4vh;
+  }
+
+  .button {
+    width: 140px;
+  }
+
+  #rouge {
+    width: 220px;
+    margin-left: 0px;
+    margin-top: 4vh;
+  }
+
+  .topabout {
+    height: auto;
+  }
+
+  .how {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+
+  .icona{
+    padding-top: 10vh;
+    width: 80px;
+    margin: auto;
+  }
+
+  .lined {
+    border: 0.5px solid white;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 0px;
+    margin-top: 10vh;
+  }
+
+  .pertain {
+    font-family: Atlasgrot;
+    font-size: 14px;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .moreabout {
+    width: 90%;
+    margin: auto;
+  }
+
+  .parabout {
+    position: relative;
+    float: right;
+    width: 95%;
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  .moneyshot {
+    position: relative;
+    width: 95%;
+    margin-top: 50vh;
+    clear: none;
+  }
+
+  .documented {
+    width: 95%;
+  }
+
+  #lefty {
+    float: right;
+  }
+
+  #righty {
+    /*right: 300px;*/
+  top: -200px;
+  margin-left: 0px;
+    /*margin-right: 100px;*/
+  }
+
+  .wordy {
+    font-size: 14px;
+  }
+
+  .somehold {
+    width: 100%;
+  }
+
+}
