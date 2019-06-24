@@ -194,7 +194,7 @@ margin-left: 300px;
 }
 
 .footer {
-  background: linear-gradient(151.83deg, #DA9D7B 12.98%, #DA7676 83.33%);
+  background: linear-gradient(335.42deg, #83999F -3.06%, #D2D4E7 128.2%);
   color: white;
   height: 15vh;
   font-family: Atlasgrot;
@@ -241,6 +241,7 @@ margin-left: 300px;
   margin: auto;
   font-family: Atlasgrot;
   padding-top: 20vh;
+  display: none;
 }
 
 .diagramaa {
@@ -276,10 +277,11 @@ margin-left: 300px;
   left: 220px;
   top: -40px;
   margin-bottom: -80px;
+  width: 45px;
 }
 
 .rightsize {
-  width: 90px;
+  width: 80px;
 }
 
 #showup {
@@ -315,6 +317,59 @@ margin-left: 300px;
 #coppyr {
   padding-top: 12vh;
   margin-left: 25px;
+}
+
+#diagramcap {
+  width: 300px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  font-family: Atlasgrot;
+  font-size: 16px;
+  margin-top: 2.5%;
+}
+
+#colorbig {
+  background: linear-gradient(124.87deg, #DA9D7B 12.98%, #DA7676 83.33%);
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+#diagramhere {
+  width: 1200px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#disp {
+  display: inline-flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#leftdia {
+  width: 600px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#rightdesciption {
+  width: 600px;
+  float: right;
+  padding: 80px;
+  font-family: Atlasgrot;
+  border-left: 1px solid black;
+}
+
+#curly {
+  width: 500px;
+}
+
+#diagramcap {
+  display: none;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -375,8 +430,12 @@ margin-left: 300px;
     font-family: Atlasgrot;
     font-size: 14px;
     color: white;
+    padding: 10px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    width: 300px;
+    margin: auto;
+
   }
 
   iframe {
@@ -384,28 +443,56 @@ margin-left: 300px;
     height: 300px;
   }
 
+  .isorow {
+    /*display: inline-block;*/
+    position: static;
+    clear: both;
+    float: none;
+    padding-top: 0px;
+  }
+
+#onetime {
+  position: static;
+  float: none;
+}
+
   .moreabout {
     width: 90%;
     margin: auto;
   }
 
   .parabout {
+    position: static;
     position: relative;
     float: right;
     width: 95%;
     padding: 20px;
-    font-size: 12px;
+    margin-bottom: -20px;
+    z-index: 3;
+    margin-top: 15vh;
+  }
+
+  #upit {
+    position: static;
+    margin-top: 0px;
+    top: 0px;
   }
 
   .moneyshot {
+    position: static;
     position: relative;
+    float: none;
     width: 95%;
-    margin-top: 50vh;
-    clear: none;
+    z-index: -1;
+    bottom: 0px;
   }
 
   .documented {
-    width: 95%;
+    width: 100%;
+  }
+  #tworow {
+    margin-top: 0px;
+    padding-top: 0px;
   }
 
   #lefty {
@@ -414,8 +501,10 @@ margin-left: 300px;
 
   #righty {
     /*right: 300px;*/
-  top: -200px;
   margin-left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-bottom: 15vh;
     /*margin-right: 100px;*/
   }
 
@@ -426,5 +515,44 @@ margin-left: 300px;
   .somehold {
     width: 100%;
   }
+
+  #diagramhold {
+    display: block;
+    background-color: white;
+    padding-top: 0px;
+    border-radius: 2px;
+  }
+
+  #colorbright {
+    background: linear-gradient(96.63deg, #DA9D7B 12.98%, #DA7676 83.33%);
+    padding-top: 8%;
+    padding-bottom: 8%;
+    clear: both;
+  }
+
+  #colorbig {
+    display: none;
+  }
+
+  #diagramcap {
+    display: block;
+  }
+
+  #diagramhere {
+    display: none;
+  }
+
+  #disp {
+    display: none;
+  }
+
+  #curly {
+    display: none;
+  }
+
+  #arounda {
+    height: auto;
+  }
+
 
 }
