@@ -196,7 +196,7 @@ margin-left: 300px;
 .footer {
   background: linear-gradient(335.42deg, #83999F -3.06%, #D2D4E7 128.2%);
   color: white;
-  height: 15vh;
+  height: 16vh;
   font-family: Atlasgrot;
 }
 
@@ -315,8 +315,9 @@ margin-left: 300px;
 }
 
 #coppyr {
-  padding-top: 12vh;
+  padding-top: 10vh;
   margin-left: 25px;
+  font-size: 10px;
 }
 
 #diagramcap {
@@ -372,19 +373,35 @@ margin-left: 300px;
   padding-bottom: 80px;
 }
 
-@media only screen and (max-width: 1000px) {
+.variablespace {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  min-width: 300px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+#calpage {
+  color: white;
+  text-decoration: underline;
+  font-family: bureau-grot, sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
 
   .epicon {
     margin-left: 3%;
   }
 
   #bigtitle {
-    font-size: 60px;
+    font-size: 140px;
   }
 
   #bighold {
     width: 95%;
-    padding-top: 40vh;
+    padding-top: 20vh;
   }
 
   #buttonhold {
@@ -428,12 +445,12 @@ margin-left: 300px;
 
   .pertain {
     font-family: Atlasgrot;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     padding: 10px;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    width: 300px;
+    width: 90%;
     margin: auto;
 
   }
@@ -466,10 +483,11 @@ margin-left: 300px;
     position: relative;
     float: right;
     width: 95%;
-    padding: 20px;
+    padding: 80px;
     margin-bottom: -20px;
     z-index: 3;
     margin-top: 15vh;
+    max-width: 500px;
   }
 
   #upit {
@@ -509,7 +527,7 @@ margin-left: 300px;
   }
 
   .wordy {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .somehold {
@@ -554,5 +572,39 @@ margin-left: 300px;
     height: auto;
   }
 
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  #bigtitle {
+    font-size: 100px;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #bigtitle {
+    font-size: 80px;
+  }
+
+  .parabout {
+    padding: 40px;
+  }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  #bigtitle {
+    font-size: 60px;
+  }
+
+  .parabout {
+    padding: 10px;
+  }
 
 }
