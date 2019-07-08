@@ -7,16 +7,29 @@
   src: url(assets/fonts/AtlasGrotesk-Medium.otf);
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 #papertime {
-  color: #DA7676;
+  color: #FAFAFF;
 }
 
 #ghub {
   color: white;
+}
+
+.socialnow {
+  fill: #FAFAFF;
 }
 
 .header {
@@ -40,7 +53,7 @@ a {
 }
 
 #main {
-  height: 100vh;
+  height: 88vh;
   width: 100%;
   background-image: url(assets/passing.gif);
   background-position: center;
@@ -55,9 +68,15 @@ a {
 }
 
 .topabout {
-  height: 30vh;
   width: 100%;
   background: linear-gradient(122.78deg, #DA7676 23.21%, #DA9D7B 74.4%);
+}
+
+.video {
+  width: 85%;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 15vh;
 }
 
 #bighold {
@@ -71,18 +90,6 @@ a {
   margin-top: 8vh;
 }
 
-.button {
-  display: inherit;
-  padding: 15px;
-  border-radius: 5px;
-  background-color: white;
-  font-family: bureau-grot, sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  font-style: normal;
-  color: #DA7676;
-}
-
 #rouge {
   background: linear-gradient(151.83deg, #DA9D7B 12.98%, #DA7676 83.33%);
   color: white;
@@ -92,7 +99,8 @@ a {
 .how {
   width: 60%;
   margin-left: 20%;
-  margin-top: 8vh;
+  margin-top: 23vh;
+  margin-bottom: 23vh;
   display: inline-flex;
 }
 
@@ -116,10 +124,10 @@ a {
 }
 
 .pertain {
-  font-family: Atlasgrot;
+  font-family: "Atlasgrot", sans-serif;
   font-size: 16px;
   color: white;
-  padding-top: 20px;
+  margin: auto;
 }
 
 #rougea {
@@ -127,6 +135,41 @@ a {
   color: white;
   width: 165px;
   margin-top: 20px;
+}
+
+/*gifrows*//*gifrows*//*gifrows*//*gifrows*//*gifrows*/
+.colslant {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #FAFAFF;
+}
+
+.twocolhold {
+  width: 1200px;
+  margin: auto;
+}
+
+.twocol {
+  display: inline-flex;
+}
+
+.colit {
+  width: 600px;
+  display: inherit;
+}
+
+.giftext {
+   margin: auto; /* Important */
+   font-family: "Atlasgrot", sans-serif;
+}
+
+.deadprez {
+  width: 475px;
+  margin: auto;
+}
+
+#slantb {
+  background-color: white;
 }
 
 .isorow {
@@ -194,9 +237,9 @@ margin-left: 300px;
 }
 
 .footer {
-  background: linear-gradient(335.42deg, #83999F -3.06%, #D2D4E7 128.2%);
+  background-color: #FAFAFF;
   color: white;
-  height: 16vh;
+  height: 20vh;
   font-family: Atlasgrot;
 }
 
@@ -331,7 +374,7 @@ margin-left: 300px;
 }
 
 #colorbig {
-  background: linear-gradient(124.87deg, #DA9D7B 12.98%, #DA7676 83.33%);
+  background: linear-gradient(120.67deg, #E9EAF3 12.98%, #D2D4E7 83.33%);
   padding-top: 20vh;
   padding-bottom: 20vh;
 }
@@ -341,6 +384,16 @@ margin-left: 300px;
   margin: auto;
   background-color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+#dag {
+  width: 400px;
+}
+
+#barit {
+  border-left: 1px solid black;
 }
 
 #disp {
@@ -389,6 +442,84 @@ margin-left: 300px;
   font-weight: 500;
 }
 
+
+/*ways to help*/
+
+.helpme {
+  margin-bottom: 15vh;
+}
+
+#centerlane {
+  margin-top: 25vh;
+  margin-bottom: 8vh;
+}
+
+#centerme {
+  width: 450px;
+  font-family: "Atlasgrot", sans-serif;
+  text-align: center; /*Important*/
+  margin: auto;
+}
+
+#markleft {
+  border-left: 1px solid black;
+}
+
+.deadpreza {
+  width: 350px;
+  margin: auto;
+}
+
+.deadprezb {
+  width: 260px;
+  margin: auto;
+}
+
+#through {
+  background-color: transparent;
+  color: #FAFAFF;
+}
+
+.newbutt {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: white;
+  font-family: "Atlasgrot", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+  color: #DA7676;
+  text-align: center;
+  border: 1px solid #E9EAF3;
+  margin-bottom: 5vh;
+}
+
+#gitclone {
+  font-family: monospace;
+  background-color: #DA7676;
+  color: #E9EAF3;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.tri {
+  width: 100%;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 100vw 60px 0;
+  border-color: transparent #FAFAFF transparent transparent;
+}
+
+.tritop {
+  width: 100%;
+  height: 0px;
+  border-style: solid;
+  border-width: 60px 0 0 100vw;
+  border-color: transparent transparent transparent #FAFAFF;
+}
+
 @media only screen and (max-width: 1200px) {
 
   .epicon {
@@ -405,7 +536,7 @@ margin-left: 300px;
   }
 
   #buttonhold {
-    display: block;
+    display: inline-flex;
     margin-top: 4vh;
   }
 
@@ -542,7 +673,7 @@ margin-left: 300px;
   }
 
   #colorbright {
-    background: linear-gradient(96.63deg, #DA9D7B 12.98%, #DA7676 83.33%);
+    background: linear-gradient(120.67deg, #E9EAF3 12.98%, #D2D4E7 83.33%);
     padding-top: 8%;
     padding-bottom: 8%;
     clear: both;
@@ -572,6 +703,42 @@ margin-left: 300px;
     height: auto;
   }
 
+  .twocolhold {
+    width: 80%;
+    margin: auto;
+  }
+
+  .twocol {
+    display: block;
+  }
+
+  .colit {
+    width: 100%;
+  }
+
+  div[class*="deadprez"] {
+    max-width: 475px;
+    width: 100%;
+  }
+
+  .gifsizs {
+    max-width: 475px;
+    width: 100%;
+  }
+
+  #markleft {
+    border-left: none;
+  }
+
+  #buttonhold {
+    display: block;
+    margin-top: 4vh;
+  }
+
+  #centerme {
+    max-width: 475px;
+    width: 100%;
+  }
 
 }
 
@@ -605,6 +772,11 @@ margin-left: 300px;
 
   .parabout {
     padding: 10px;
+  }
+
+  .twocolhold {
+    width: 95%;
+    margin: auto;
   }
 
 }
