@@ -55,7 +55,7 @@ h3 {
 #main {
   height: 88vh;
   width: 100%;
-  background-image: url(assets/passing.gif);
+  background-image: url(assets/header.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -361,6 +361,7 @@ margin-left: 300px;
   padding-top: 10vh;
   margin-left: 25px;
   font-size: 10px;
+  color: black;
 }
 
 #diagramcap {
@@ -518,6 +519,10 @@ margin-left: 300px;
   border-style: solid;
   border-width: 60px 0 0 100vw;
   border-color: transparent transparent transparent #FAFAFF;
+}
+
+.subtle {
+  color: #DA7676;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -719,6 +724,10 @@ margin-left: 300px;
   div[class*="deadprez"] {
     max-width: 475px;
     width: 100%;
+  }
+
+  #buttonhold {
+    width: 200px;
   }
 
   .gifsizs {
